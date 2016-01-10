@@ -1,0 +1,61 @@
+
+{
+    "locations": [
+        {
+            "title": "Buddha Stix Restaurant Bar",
+            "latitude": "-43.525338",
+            "longitude": "172.603197",
+            "zIndex": 1,
+            "html": "<a href='http://www.buddhastix.co.nz/' target='_blank'>Buddha Stix Restaurant Bar</a><br/><br/><img src='images/restaurants/BuddhaStixRestaurantBar.jpg' width='197' /><br/>",
+            "image": {
+                "url": "images/themes/restaurantsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        },
+        {
+            "title": "McDonald's - Buckleys Road",
+            "latitude": "-43.530689",
+            "longitude": "172.674093",
+            "zIndex": 2,
+            "html": "<a href='https://mcdonalds.co.nz/' target='_blank'>McDonald's - Buckleys Road</a><br/><br/><img src='images/restaurants/McDonald.jpg' width='197' /><br/>",
+            "image": {
+                "url": "images/themes/restaurantsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        }, {
+            "title": "Salt On The Pier",
+            "latitude": "-43.500064",
+            "longitude": "172.731256",
+            "zIndex": 3,
+            "html": "<a href='http://www.saltonthepier.co.nz/' target='_blank'>Salt On The Pier</a><br/><br/><img src='images/restaurants/SaltOnThePier.jpg' width='197' />",
+            "image": {
+                "url": "images/themes/restaurantsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        }
+    ]
+}
+
+
+
+
+
+

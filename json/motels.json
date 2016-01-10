@@ -1,0 +1,60 @@
+{
+    "locations": [
+        {
+            "title": "Middlepark Motel",
+            "latitude": "-43.534040",
+            "longitude": "172.557229",
+            "zIndex": 1,
+            "html": "<a href='http://www.middle-park.co.nz/' target='_blank'>Middlepark Motel</a><br/><br/><img src='images/motels/middlepark-rest.jpg' width='197' /><br/>",
+            "image": {
+                "url": "images/themes/motelsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        },
+        {
+            "title": "Ferry Motel",
+            "latitude": "-43.540262",
+            "longitude": "172.663574",
+            "zIndex": 2,
+            "html": "<a href='http://www.ferrymotel.co.nz/' target='_blank'>Ferry Motel</a><br/><br/><img src='images/motels/FerryMotel.jpg' width='197' /><br/>",
+            "image": {
+                "url": "images/themes/motelsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        }, {
+            "title": "Best Western Camelot Motor Lodge",
+            "latitude": "-43.517735",
+            "longitude": "172.627010",
+            "zIndex": 3,
+            "html": "<a href='http://www.camelotlodgechristchurch.com/' target='_blank'>Best Western Camelot Motor Lodge</a><br/><br/><img src='images/motels/Best-Western.jpg' width='197' />",
+            "image": {
+                "url": "images/themes/motelsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        }
+    ]
+}
+
+
+
+
+
+

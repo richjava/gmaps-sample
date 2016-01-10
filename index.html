@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gmaps Sample</title>       
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />       
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul id="navlist">
+                    <li onclick="placeFinder.getDefaultLocation()"><a href="#">Home</a></li>
+                    <li onclick="placeFinder.shareCurrentLocation()"><a href="#">Share your location</a></li>
+                    <li id="restaurants" onclick="placeFinder.dropRegularMarkers(this.id)"><a href="#">Restaurants</a></li>
+                    <li id="motels" onclick="placeFinder.dropRegularMarkers(this.id)"><a href="#">Motels</a></li>
+                    <li id="scenicSpots" onclick="placeFinder.dropRegularMarkers(this.id)"><a href="#">Scenic spots</a></li>
+                    <li onclick="placeFinder.dropFavoriteMarkers()"><a href="#">Favorites</a></li>
+                    <li onclick="placeFinder.clearFavorites()"><a href="#">Clear favorites</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="mainSection">
+            <article id="mapContainer">
+<!--                container for map-->
+                <div id="mapCanvas">                  
+                </div>
+            </article>
+            <aside>
+<!--                container for directions display-->
+                <article id="directionsPanel">
+                    <div id="infoPanel"><h1>Directions Panel</h1></div>
+                </article>
+            </aside>
+        </section>
+        <footer>
+            <div id="control"></div>
+        </footer>
+<!--        Load the Maps API JavaScript using a script tag.-->
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAMxVgoB0yI2L1rAOCKT4vByekE8mSrs2Y&sensor=true"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
+
+

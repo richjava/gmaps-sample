@@ -1,0 +1,46 @@
+/* needed for gmaps */
+html,body {
+    width:100%;
+    height: 100%;
+}
+
+#navlist li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+#mainSection {
+    width:  100%;
+    height: 100%;
+    float: right;
+}
+#mapContainer {
+    width: 78.167938931297709923664122137405%; 
+    height: 100%; /* needed for gmaps */
+    display: inline-block;
+}
+#mapCanvas {
+    background: #E4E4E4;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border: solid thin dimgray;
+    width: 100%;
+/* Height of the map div is set to "100%". This will expand to fit the size on mobile devices.*/
+    height: 100%;
+}
+aside {
+    width: 21%;
+    height: 100%;
+    display: inline-block;
+}
+#directionsPanel {
+    height: 100%;
+    overflow: auto;
+}
+
+
+
+
+

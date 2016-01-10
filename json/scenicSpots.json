@@ -1,0 +1,60 @@
+{
+    "locations": [
+        {
+            "title": "International Antarctic Centre",
+            "latitude": "-43.487857",
+            "longitude": "172.547068",
+            "zIndex": 1,
+            "html": "<a href='http://www.iceberg.co.nz/' target='_blank'>International Antarctic Centre</a><br/><br/><img src='images/scenicSpots/antartic-centre-logo.JPG' width='197' /><br/>",
+            "image": {
+                "url": "images/themes/scenicSpotsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        },
+        {
+            "title": "Willowbank Wildlife Reserve",
+            "latitude": "-43.463068",
+            "longitude": "172.594224",
+            "zIndex": 2,
+            "html": "<a href='http://www.willowbank.co.nz/' target='_blank'>Willowbank Wildlife Reserve</a><br/><br/><img src='images/scenicSpots/willowBank.jpg' width='197' /><br/>",
+            "image": {
+                "url": "images/themes/scenicSpotsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        },{
+            "title": "Christchurch Botanic Gardens Visitor Centre",
+            "latitude": "-43.529906",
+            "longitude": "172.620096",
+            "zIndex": 3,
+            "html": "<a href='http://www.ccc.govt.nz/cityleisure/parkswalkways/christchurchbotanicgardens/visitorcentre.aspx' target='_blank'>Christchurch Botanic Gardens Visitor Centre</a><br/><br/><img src='images/scenicSpots/Bot_Building.jpg' width='197' />",
+            "image": {
+                "url": "images/themes/scenicSpotsFlag.png",
+                "size": [20, 32],
+                "origin": [0, 0],
+                "anchor": [0, 32]
+            },
+            "shape": {
+                "coords": [1, 1, 1, 20, 18, 20, 18, 1],
+                "type": "poly"
+            }
+        }
+    ]
+}
+
+
+
+
+
+
