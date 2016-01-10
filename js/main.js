@@ -207,7 +207,7 @@ APP.PlaceFinder = function PlaceFinder() {
             //local storage stores values as strings
             var str = numOfSaved.toString();
             localStorage.setItem(NUM_OF_SAVED, str);
-            localStorage.setItem(SAVED_LOCATION + str, JSON.stringify(locationJSON.location[index]));
+            localStorage.setItem(SAVED_LOCATION + str, JSON.stringify(locationJSON.locations[index]));
             alert("Location saved!");
         }
     }
